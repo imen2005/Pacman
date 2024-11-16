@@ -31,6 +31,7 @@ public class Pacman extends JPanel {
     InnerPacman pacman;
 
     Pacman() {
+        //Game Panel setting
         setPreferredSize(new Dimension(boardWidth,boardHeight));
         setBackground(Color.BLACK);
 
